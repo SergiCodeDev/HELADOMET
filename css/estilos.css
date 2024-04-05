@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;900&display=swap');
+
+
+/*
+
+font-family: 'Rubik', sans-serif;
+
+*/
+
+/* line-height: 3em; */
+
+html {
+    font-family: 'Rubik', sans-serif;
+    background: rgba(250, 250, 250);
+}
+
+.t-f-t {
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.t-f-p {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+/* Global */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nopading {
+    padding: 0 !important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.AAA {
+    text-transform: uppercase;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.colorblanco {
+    color: rgb(250, 250, 250);
+}
+
+.colornegro-t {
+    color: rgb(33, 33, 33);
+}
+
+.colornegro-p {
+    color: rgb(66, 66, 66);
+}
+
+
+.fondo-inicio {
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.0) 40%), url(/imagenes/fongoimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.msc-m {
+    color: rgb(18, 18, 18);
+    transition: color .2s ease;
+    font-size: 1.25rem;
+}
+
+.msc-m:hover {
+    color: rgb(102, 102, 102);
+}
+
+.menu a {
+    color: rgb(168, 168, 168);
+    transition: color .2s ease;
+    font-size: 1.25rem;
+}
+
+.menu a:hover {
+    color: rgb(102, 102, 102);
+}
+
+.menu-i {
+    color: rgb(102, 102, 102) !important;
+}
+
+.titulo1 {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.titulo {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 3.5%;
+    margin-right: 3.4%;
+}
+
+.titulo h1 {
+    margin: 0;
+}
+
+.b-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 6px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.b-nav-l {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 6px;
+
+}
+
+.b-nav-a {
+    display: flex;
+    gap: 12px;
+    row-gap: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.b-nav-i {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.baner-h {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+
+}
+
+.mtnav {
+    margin-top: 18vh;
+}
+
+.baner-h h2 {
+    font-size: 2.54rem;
+}
+
+.baner-h a {
+    color: rgb(102, 102, 102);
+    border: 2px solid rgb(102, 102, 102);
+    font-size: 1.3rem;
+    padding: 6px 14px;
+}
+
+
+.baner-h a:hover {
+    color: rgb(168, 168, 168);
+    border: 2px solid rgb(168, 168, 168);
+}
+
+.info-bar {
+    display: flex;
+    padding: 60px 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    align-content: center;
+}
+
+.info-bar-s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.info-bar-i {
+    font-size: 1.6rem;
+    width: 30px;
+}
+
+.info-bar-t {
+    border-left: 2px solid rgb(168, 168, 168);
+    padding-left: 12px;
+}
+
+.info-bar-t h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.empujarrr {
+    margin-right: 4.6% !important;
+    margin-left: 4.6% !important;
+    justify-content: center;
+}
+
+.fondo2 {
+    height: 60vh;
+    background: url(/imagenes/fondoasdadssd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.fondo2-2 {
+    height: 140vh;
+    background: url(/imagenes/fondoasdadssd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.des-est {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.des-est-h4 {
+    display: block;
+    margin-top: 0.6rem;
+    border-bottom: 2px solid black;
+    padding: 0 10%;
+    margin-bottom: 6px;
+}
+
+.des-vis {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+
+#barra1 {
+    transition: all .2s ease;
+
+}
+
+
+.card {
+    margin-bottom: calc(var(--bs-gutter-x) * .5);
+    margin-top: calc(var(--bs-gutter-x) * .5);
+    border: 0 solid black;
+}
+
+
+#menu-filtros {
+    margin-top: 10px;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+
+
+#menu-filtros li {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    font-size: 1.4rem;
+    transition: background .2s ease;
+    transition: color .1s;
+}
+
+#menu-filtros li:hover {
+    background: linear-gradient(0deg, rgba(102, 102, 102, 0) 0%, rgb(151, 151, 151) 2%, rgba(151, 151, 151, 1) 10%, rgba(102, 102, 102, 0) 12%);
+    color: rgb(136, 136, 136);
+}
+
+
+.margenes-isotope {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.colorsdasd {
+    color: rgb(75, 75, 75);
+}
+
+.lineaabajo {
+    background: linear-gradient(0deg, rgba(102, 102, 102, 0) 0%, rgba(102, 102, 102, 1) 2%, rgba(102, 102, 102, 1) 10%, rgba(102, 102, 102, 0) 12%) !important;
+    color: rgb(102, 102, 102) !important;
+}
+
+.h2tamano {
+    font-size: 2.8rem;
+}
+
+
+.m-helado-menu {
+    margin-top: 30%;
+    margin-bottom: 0;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background: url(/imagenes/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.rounded-pill {
+    bottom: -6%;
+}
+
+.promo-desc {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url(/imagenes/fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.promotion-des {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arr-img {
+    height: 100% !important;
+    object-fit: cover;
+}
+
+
+.fondo-des-neg {
+    filter: brightness(80%);
+}
+
+
+.fondo-contactos {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background: linear-gradient(0deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%), url(/imagenes/fondo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.esc-puntos {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Movil */
+
+@media (min-width: 576px) {
+    .h2tamano {
+        font-size: 2rem;
+    }
+    .esc-puntos {
+        display:contents;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .des-vis {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+    }
+
+    .fondo2-2 {
+        height: 80vh;
+    }
+
+    .fondo2 {
+        height: 80vh;
+
+    }
+
+    .margenes-isotope {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .h2tamano {
+        font-size: 3rem;
+    }
+
+    .m-helado-menu {
+        margin-top: 20%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .promo-desc {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .fondo-contactos {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    
+    }
+
+}
+
+/* Portatil */
+
+@media (min-width: 992px) {
+
+    .b-nav {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+
+    .b-nav-a {
+        margin-bottom: 0px;
+    }
+
+    .b-nav-l {
+
+        flex-direction: row;
+        column-gap: 70px;
+        flex-basis: 90%;
+        justify-content: flex-start;
+    }
+
+    .baner-h {
+
+        gap: 14px;
+
+    }
+
+    .baner-h h2 {
+        font-size: 4.6rem;
+    }
+
+    .info-bar {
+        display: flex;
+        padding: 30px;
+        flex-direction: row;
+        row-gap: 30px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .info-bar-s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 12px;
+        flex-basis: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .b-nav-i {
+        display: flex;
+        gap: 12px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mtnav {
+        margin-top: 13vh;
+    }
+
+    .margenes-isotope {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .m-helado-menu {
+        margin-top: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .h2tamano {
+        font-size: 3rem;
+    }
+
+    .promo-desc {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .fondo-contactos {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    
+    }
+}
+
+/* Ordenador */
+
+@media (min-width: 1200px) {
+
+    .b-nav {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+
+    .b-nav-a {
+        margin-bottom: 0px;
+    }
+
+    .b-nav-l {
+
+        flex-direction: row;
+        column-gap: 70px;
+        flex-basis: 90%;
+        justify-content: flex-start;
+    }
+
+    .baner-h {
+
+
+        gap: 14px;
+
+    }
+
+    .baner-h h2 {
+        font-size: 4.6rem;
+    }
+
+    .info-bar {
+        display: flex;
+        padding: 60px 30px;
+        flex-direction: row;
+        row-gap: 30px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .info-bar-s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 12px;
+        flex-basis: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .b-nav-i {
+        display: flex;
+        gap: 12px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mtnav {
+        margin-top: 20vh;
+    }
+
+    .margenes-isotope {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    .m-helado-menu {
+        margin-top: 6%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .promo-desc {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .fondo-contactos {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    
+    }
+}

@@ -33,3 +33,30 @@
 ## Contactos y horarios
 
 <img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/07HELADOS.jpg?raw=true" alt="portada">
+
+## Para que funcione una sección de este proyecto web, necesitas descargar lo siguiente (utilizado para aprender):
+
+- Isotope PACKAGED v3.0.6, que está licenciado bajo GPLv3 es su versión de licencia de código abierto y también tiene una versión de licencia comercial.
+
+    Para más información sobre las licencias, visita: https://isotope.metafizzy.co/license.html
+
+    Descargar en: https://isotope.metafizzy.co/
+
+    Poner en la carpeta /js/isotope.pkgd.min.js
+
+## Este archivo contiene LICENCIAS de:
+
+> * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
+> * Copyright 2011-2022 The Bootstrap Authors
+> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+
+> * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
+> * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+> * Copyright 2024 Fonticons, Inc.
+> * inconos/css y webfonts
+
+> * Imagenes de https://unsplash.com/es/licencia
+> * (Algunas fueron modificadas)
+
+> * jQuery v3.6.4 | (c) OpenJS Foundation and other contributors | [jquery.org/license](https://jquery.com/license/)
