@@ -54,9 +54,9 @@
 > * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
 > * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 > * Copyright 2024 Fonticons, Inc.
-> * inconos/css y webfonts
+> * iconos/css y webfonts
 
-> * Imagenes de https://unsplash.com/es/licencia
+> * Imágenes de https://unsplash.com/es/licencia
 > * (Algunas fueron modificadas)
 
 > * jQuery v3.6.4 | (c) OpenJS Foundation and other contributors | [jquery.org/license](https://jquery.com/license/)
