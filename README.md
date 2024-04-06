@@ -8,11 +8,11 @@
 
 ## Información y bienvenida
 
-<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/02HELADOS.jpg?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/02HELADOS.jpg?raw=true" alt="Información y bienvenida">
 
 ## Carousel bootstrap
 
-<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/03HELADOS.jpg?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/03HELADOS.jpg?raw=true" alt="Carousel">
 
 ## Filtro de contenido con isotope
 
@@ -24,15 +24,15 @@
 
 ## Sección de helados
 
-<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/05HELADOS.jpg?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/05HELADOS.jpg?raw=true" alt="helados">
 
 ## Sección de promos y descuentos
 
-<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/06HELADOS.jpg?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/06HELADOS.jpg?raw=true" alt="promos y descuentos">
 
 ## Contactos y horarios
 
-<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/07HELADOS.jpg?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/07HELADOS.jpg?raw=true" alt="Contactos y horarios">
 
 ## Para que funcione una sección de este proyecto web, necesitas descargar lo siguiente (utilizado para aprender):
 
