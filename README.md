@@ -1,7 +1,5 @@
 # HELADOMET
 
-### Esta web fue creada en el curso de Confección y Publicación de Páginas WEB (LABORA)
-
 ## Portada con efecto parallax y menú transparente (al principio)
 
 <img src="https://github.com/SergiCodeDev/HELADOMET/blob/main/README/01HELADOS.jpg?raw=true" alt="portada">
